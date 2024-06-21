@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+int main()
+{
+    float radius;
+    float circumference;
+    float area;
+    
+  cout <<"Enter radius: ";
+  cin >>radius;
+  
+  circumference = 2*M_PI*radius;
+  area = M_PI*radius*radius;
+  
+  cout <<"Circumference: " << circumference;
+  cout <<"\nArea: " << area;
+  
+  return 0;
+}
+  
